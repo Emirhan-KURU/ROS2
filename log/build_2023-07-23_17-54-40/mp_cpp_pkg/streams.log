@@ -1,0 +1,58 @@
+[0.021s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg
+[0.135s] -- The C compiler identification is GNU 11.3.0
+[0.247s] -- The CXX compiler identification is GNU 11.3.0
+[0.258s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.416s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.570s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.667s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.724s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.730s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.742s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.866s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.870s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.053s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.092s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Looking for pthread.h
+[1.212s] -- Looking for pthread.h - found
+[1.213s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.280s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.281s] -- Found Threads: TRUE  
+[1.449s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.522s] -- Added test 'lint_cmake' to check CMake code style
+[1.523s] -- Added test 'xmllint' to check XML markup files
+[1.524s] -- Configuring done
+[1.529s] -- Generating done
+[1.530s] -- Build files have been written to: /home/emirhan/ros2_ws/build/mp_cpp_pkg
+[1.538s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg
+[1.539s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[1.569s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[1.593s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/build/mp_cpp_pkg
+[1.598s] -- Install configuration: ""
+[1.598s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/mp_cpp_pkg
+[1.598s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/mp_cpp_pkg
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.sh
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.dsv
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.sh
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.dsv
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.bash
+[1.599s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.sh
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.zsh
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.dsv
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.dsv
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/packages/mp_cpp_pkg
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig.cmake
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig-version.cmake
+[1.600s] -- Installing: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.xml
+[1.605s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/build/mp_cpp_pkg

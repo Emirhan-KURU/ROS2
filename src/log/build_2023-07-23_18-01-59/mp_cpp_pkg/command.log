@@ -1,0 +1,4 @@
+Invoking command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/src/build/mp_cpp_pkg -- -j8 -l8
+Invoked command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/src/build/mp_cpp_pkg -- -j8 -l8
+Invoking command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/src/build/mp_cpp_pkg
+Invoked command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/src/build/mp_cpp_pkg

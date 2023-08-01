@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/src/build/mp_cpp_pkg -- -j8 -l8
+[0.042s] Invoked command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/src/build/mp_cpp_pkg -- -j8 -l8
+[0.067s] Invoking command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/src/build/mp_cpp_pkg
+[0.072s] -- Install configuration: ""
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/mp_cpp_pkg
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/mp_cpp_pkg
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.sh
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.dsv
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.sh
+[0.072s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.dsv
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.bash
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.sh
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.zsh
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.dsv
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/package.dsv
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/ament_index/resource_index/packages/mp_cpp_pkg
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig.cmake
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig-version.cmake
+[0.073s] -- Up-to-date: /home/emirhan/ros2_ws/src/install/mp_cpp_pkg/share/mp_cpp_pkg/package.xml
+[0.074s] Invoked command in '/home/emirhan/ros2_ws/src/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/src/build/mp_cpp_pkg

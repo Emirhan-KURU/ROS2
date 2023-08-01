@@ -1,0 +1,16 @@
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/deneme_20.py
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/my_first_node.cpython-310.pyc
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/__init__.cpython-310.pyc
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__pycache__/deneme_20.cpython-310.pyc
+/home/emirhan/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages/my_py_pkg
+/home/emirhan/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.xml
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/entry_points.txt
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/zip-safe
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/requires.txt
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg/py_node = my_py_pkg.my_first_node:mainVideo_20_node
