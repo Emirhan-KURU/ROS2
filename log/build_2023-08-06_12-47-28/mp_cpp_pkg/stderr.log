@@ -1,0 +1,7 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/smartphone.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/String.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/String.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

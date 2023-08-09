@@ -1,0 +1,2 @@
+Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg
+Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg

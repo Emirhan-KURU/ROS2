@@ -1,0 +1,35 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:24:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces[m[K’?
+   24 |     rclcpp::Publisher<[01;31m[Kexample_interface[m[K::msg::String>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kexample_interfaces[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |     rclcpp::Publisher<example_interface::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |     rclcpp::Publisher<example_interface::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:24:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   24 |     rclcpp::Publisher<example_interface::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~[m[K
+      |                                                                  [32m[Krmw_publisher_t[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+    9 |         [01;31m[Kpublisher_[m[K = this->create_publisher<example_interfaces::msg::String>("robot_news",10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[KpublishNews[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:10:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+   10 |         timer_ [01;31m[Kthis[m[K->create_wall_timer(std::chrono::milliseconds(500),
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   10 |         [01;35m[Ktimer_[m[K this->create_wall_timer(std::chrono::milliseconds(500),
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid RobotNewsStationNode::publishNews()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+   20 |         [01;31m[Kpublisher_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[KpublishNews[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

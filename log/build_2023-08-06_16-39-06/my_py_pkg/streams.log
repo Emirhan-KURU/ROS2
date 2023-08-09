@@ -1,0 +1,31 @@
+[0.631s] Invoking command in '/home/emirhan/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build
+[0.867s] running develop
+[1.046s] Invoked command in '/home/emirhan/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build
+[1.047s] Invoking command in '/home/emirhan/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emirhan/ros2_ws/build/my_py_pkg/build install --record /home/emirhan/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.263s] running egg_info
+[1.263s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.264s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.264s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.264s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.265s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.266s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.266s] running build
+[1.266s] running build_py
+[1.267s] copying my_py_pkg/number_counter.py -> /home/emirhan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.267s] running install
+[1.267s] running install_lib
+[1.268s] copying /home/emirhan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.269s] byte-compiling /home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[1.269s] running install_data
+[1.270s] running install_egg_info
+[1.271s] removing '/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.272s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.273s] running install_scripts
+[1.289s] Installing number_counter script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.289s] Installing number_publisher script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.290s] Installing py_node script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.290s] Installing robot_news_station script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.290s] Installing smartphone script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.290s] writing list of installed files to '/home/emirhan/ros2_ws/build/my_py_pkg/install.log'
+[1.310s] Invoked command in '/home/emirhan/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/emirhan/ros2_ws/build/my_py_pkg/build install --record /home/emirhan/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

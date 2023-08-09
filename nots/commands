@@ -1,0 +1,4 @@
+//video 21
+/ colcon build --packages-select my_py_pkg
+/ ros2 run my_py_pkg py_node
+

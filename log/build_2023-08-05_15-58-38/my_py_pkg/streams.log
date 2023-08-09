@@ -1,0 +1,20 @@
+[0.658s] Invoking command in '/home/emirhan/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.896s] running develop
+[1.048s] running egg_info
+[1.048s] writing my_py_pkg.egg-info/PKG-INFO
+[1.048s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.049s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.049s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.049s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.050s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.051s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.052s] running build_ext
+[1.052s] Creating /home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.053s] Installing Video_20_node script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.053s] Installing py_node script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.053s] Installing robot_news_station script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.053s] 
+[1.053s] Installed /home/emirhan/ros2_ws/build/my_py_pkg
+[1.053s] running install_data
+[1.054s] copying package.xml -> /home/emirhan/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.078s] Invoked command in '/home/emirhan/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build --no-deps install_data

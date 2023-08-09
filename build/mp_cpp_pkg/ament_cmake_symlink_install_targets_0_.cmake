@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/emirhan/ros2_ws/build/mp_cpp_pkg/cpp_node" "/home/emirhan/ros2_ws/build/mp_cpp_pkg/robot_news_station" "/home/emirhan/ros2_ws/build/mp_cpp_pkg/smartphone" "TARGETS" "cpp_node" "robot_news_station" "smartphone" "DESTINATION" "lib/mp_cpp_pkg")

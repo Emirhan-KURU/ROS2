@@ -9,6 +9,7 @@ def main(args = None):
     node.get_logger().info("Deneme_20_Basarili")
     rclpy.shutdown()
 
+
 def say_to_10():
     for i in range(1, 11):
         print(i)

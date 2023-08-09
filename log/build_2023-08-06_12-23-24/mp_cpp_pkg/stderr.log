@@ -1,0 +1,11 @@
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  find_package called with invalid argument "REQUİRED"
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'example_interfaces'
+  was not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (ament_target_dependencies)
+
+[0m

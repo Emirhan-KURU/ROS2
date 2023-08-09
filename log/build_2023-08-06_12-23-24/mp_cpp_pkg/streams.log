@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg
+[0.038s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.123s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.222s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.283s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.299s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.480s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.996s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.996s]   find_package called with invalid argument "REQUİRED"
+[0.996s] 
+[0.997s] [0m
+[0.997s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.997s]   ament_target_dependencies() the passed package name 'example_interfaces'
+[0.997s]   was not found before
+[0.998s] Call Stack (most recent call first):
+[0.998s]   CMakeLists.txt:34 (ament_target_dependencies)
+[0.998s] 
+[0.998s] [0m
+[0.998s] -- Configuring incomplete, errors occurred!
+[0.998s] See also "/home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[1.005s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/emirhan/ros2_ws/src/mp_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emirhan/ros2_ws/install/mp_cpp_pkg

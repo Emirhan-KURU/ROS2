@@ -1,0 +1,10 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:10:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+   10 |         timer_ [01;31m[Kthis[m[K->create_wall_timer(std::chrono::milliseconds(500),
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/robot_news_station.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   10 |         [01;35m[Ktimer_[m[K this->create_wall_timer(std::chrono::milliseconds(500),
+      |         [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

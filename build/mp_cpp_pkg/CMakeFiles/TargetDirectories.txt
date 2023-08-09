@@ -1,5 +1,8 @@
 /home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/uninstall.dir
 /home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/mp_cpp_pkg_uninstall.dir
+/home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/cpp_node.dir
+/home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/robot_news_station.dir
+/home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/smartphone.dir
 /home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/test.dir
 /home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/emirhan/ros2_ws/build/mp_cpp_pkg/CMakeFiles/rebuild_cache.dir

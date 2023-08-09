@@ -1,0 +1,18 @@
+[0.579s] Invoking command in '/home/emirhan/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.824s] running develop
+[0.976s] running egg_info
+[0.976s] writing my_py_pkg.egg-info/PKG-INFO
+[0.976s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.977s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.977s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.977s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.978s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.979s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.980s] running build_ext
+[0.980s] Creating /home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.981s] Installing Video_20_node script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.981s] Installing py_node script to /home/emirhan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.982s] 
+[0.982s] Installed /home/emirhan/ros2_ws/build/my_py_pkg
+[0.982s] running install_data
+[1.005s] Invoked command in '/home/emirhan/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/emirhan/ros2_ws/build/my_py_pkg/prefix_override:/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emirhan/ros2_ws/build/my_py_pkg/build --no-deps install_data
