@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.061s] [ 20%] Built target cpp_node
+[0.063s] [ 40%] Built target robot_news_station
+[0.065s] [ 60%] Built target number_counter
+[0.066s] [ 80%] Built target smartphone
+[0.069s] [ 90%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.899s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KnumberPublisherNode::numberPublisherNode()[m[K’:
+[1.899s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:11:99:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishNumber[m[K’ is not a member of ‘[01m[KnumberPublisherNode[m[K’
+[1.899s]    11 |         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&numberPublisherNode::[01;31m[KpublishNumber[m[K, this));
+[1.899s]       |                                                                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.900s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.900s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:1[m[K:
+[1.900s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid numberPublisherNode::PublishNews()[m[K’:
+[1.900s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:21:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.901s]    21 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: %lld"[m[K, [32m[Kmsg.data[m[K);
+[1.901s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[1.901s]       |                                                                 [32m[K|[m[K
+[1.901s]       |                                                                 [32m[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type {aka long int}[m[K
+[1.901s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:21:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.901s]    21 |         RCLCPP_INFO(this->get_logger(), "Publishing: [01;36m[K%lld[m[K", msg.data);
+[1.901s]       |                                                      [01;36m[K~~~^[m[K
+[1.901s]       |                                                         [01;36m[K|[m[K
+[1.901s]       |                                                         [01;36m[Klong long int[m[K
+[1.901s]       |                                                      [32m[K%ld[m[K
+[2.514s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[2.514s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/number_publisher.dir/all] Error 2
+[2.514s] gmake: *** [Makefile:146: all] Error 2
+[2.516s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8

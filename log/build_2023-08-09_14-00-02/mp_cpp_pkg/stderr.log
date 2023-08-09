@@ -1,0 +1,11 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KnumberPublisherNode::numberPublisherNode()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:9:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcounter_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    9 |         int [01;35m[Kcounter_[m[K =0;
+      |             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid numberPublisherNode::PublishNenws()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+   18 |         msg.data = [01;31m[Kcounter_[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/number_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

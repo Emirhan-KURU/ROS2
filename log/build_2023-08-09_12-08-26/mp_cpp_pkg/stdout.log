@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target number[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 25%] Built target smartphone
+[ 50%] Built target robot_news_station
+[ 75%] Built target cpp_node
+[ 87%] [32mBuilding CXX object CMakeFiles/number.dir/src/number_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number[0m
+[100%] Built target number
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/cpp_node
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/robot_news_station
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/smartphone
+-- Symlinking: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/number
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.bash
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.dsv
+-- Symlinking: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/packages/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig.cmake
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.xml

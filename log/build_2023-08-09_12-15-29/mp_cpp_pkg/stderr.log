@@ -1,0 +1,8 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid numberPublisherNode::publishnews()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:16:25:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kint64_t[m[K’?
+   16 |         msg.data = std::[01;31m[KInt64[m[K(10);
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Kint64_t[m[K
+gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/number_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

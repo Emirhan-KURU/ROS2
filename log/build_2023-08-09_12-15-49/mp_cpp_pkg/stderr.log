@@ -1,0 +1,4 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid numberPublisherNode::publishnews()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:15:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmsg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   15 |         auto [01;35m[Kmsg[m[K = example_interfaces::msg::Int64();
+      |              [01;35m[K^~~[m[K

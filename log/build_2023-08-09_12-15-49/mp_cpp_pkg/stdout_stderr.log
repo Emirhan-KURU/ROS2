@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 25%] Built target cpp_node
+[ 50%] Built target robot_news_station
+[ 75%] Built target smartphone
+[ 87%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid numberPublisherNode::publishnews()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:15:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmsg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   15 |         auto [01;35m[Kmsg[m[K = example_interfaces::msg::Int64();
+      |              [01;35m[K^~~[m[K
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/cpp_node
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/robot_news_station
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/smartphone
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/number_publisher
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.bash
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.sh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.dsv
+-- Symlinking: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.dsv
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/packages/mp_cpp_pkg
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig.cmake
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.xml

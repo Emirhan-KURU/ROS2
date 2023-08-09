@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/number.dir/src/number_publisher.cpp.o[0m
+[ 37%] Built target robot_news_station
+[ 62%] Built target smartphone
+[ 87%] Built target cpp_node

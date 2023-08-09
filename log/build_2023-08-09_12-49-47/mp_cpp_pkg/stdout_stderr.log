@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 60%] Built target cpp_node
+[ 60%] Built target smartphone
+[ 60%] Built target robot_news_station
+[ 70%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:[m[K In constructor ‘[01m[KnumberPublisherNode::numberPublisherNode()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_publisher.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+    9 |         [01;31m[Kcounter_[m[K = 0;
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/number_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 90%] [32m[1mLinking CXX executable number_counter[0m
+[ 90%] Built target number_counter
+gmake: *** [Makefile:146: all] Error 2
