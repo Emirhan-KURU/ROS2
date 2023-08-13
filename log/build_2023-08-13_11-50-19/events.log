@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000151] (mp_cpp_pkg) JobQueued: {'identifier': 'mp_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000522] (mp_cpp_pkg) JobStarted: {'identifier': 'mp_cpp_pkg'}
+[0.009846] (mp_cpp_pkg) JobProgress: {'identifier': 'mp_cpp_pkg', 'progress': 'cmake'}
+[0.010259] (mp_cpp_pkg) JobProgress: {'identifier': 'mp_cpp_pkg', 'progress': 'build'}
+[0.010912] (mp_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emirhan/ros2_ws/build/mp_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/emirhan/ros2_ws/build/mp_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emirhan'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emirhan'), ('OLDPWD', '/home/emirhan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1169'), ('SYSTEMD_EXEC_PID', '1331'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3646'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emirhan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emirhan'), ('JOURNAL_STREAM', '8:29831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emirhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emirhan:@/tmp/.ICE-unix/1305,unix/Emirhan:/tmp/.ICE-unix/1305'), ('INVOCATION_ID', '9b4d85d4261a4d3db6c602210ccd9bd8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5X6O91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emirhan/ros2_ws/install/my_py_pkg:/home/emirhan/ros2_ws/install/mp_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:51a2b62d-e2d4-4d86-a38d-0b896b05062c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emirhan/ros2_ws/build/mp_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emirhan/ros2_ws/install/mp_cpp_pkg:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.071151] (mp_cpp_pkg) StdoutLine: {'line': b'[ 12%] Built target smartphone\n'}
+[0.072019] (mp_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target cpp_node\n'}
+[0.072351] (mp_cpp_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[0.072613] (mp_cpp_pkg) StdoutLine: {'line': b'[ 43%] Built target robot_news_station\n'}
+[0.073248] (mp_cpp_pkg) StdoutLine: {'line': b'[ 56%] Built target number_publisher\n'}
+[0.074862] (mp_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_client\n'}
+[0.075043] (mp_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target add_two_ints_client_no_oop\n'}
+[0.080266] (mp_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target add_two_ints_server\n'}
+[0.099572] (-) TimerEvent: {}
+[0.199828] (-) TimerEvent: {}
+[0.300175] (-) TimerEvent: {}
+[0.400431] (-) TimerEvent: {}
+[0.500875] (-) TimerEvent: {}
+[0.601134] (-) TimerEvent: {}
+[0.701433] (-) TimerEvent: {}
+[0.801732] (-) TimerEvent: {}
+[0.902034] (-) TimerEvent: {}
+[1.002332] (-) TimerEvent: {}
+[1.102630] (-) TimerEvent: {}
+[1.202932] (-) TimerEvent: {}
+[1.303230] (-) TimerEvent: {}
+[1.403531] (-) TimerEvent: {}
+[1.503835] (-) TimerEvent: {}
+[1.604154] (-) TimerEvent: {}
+[1.704483] (-) TimerEvent: {}
+[1.804799] (-) TimerEvent: {}
+[1.905143] (-) TimerEvent: {}
+[1.997918] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:25:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kself\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.998092] (mp_cpp_pkg) StderrLine: {'line': b'   25 |     void callback_reset_counter(\x1b[01;31m\x1b[Kself\x1b[m\x1b[K, request ,response)\n'}
+[1.998155] (mp_cpp_pkg) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.998211] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:25:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.998266] (mp_cpp_pkg) StderrLine: {'line': b'   25 |     void callback_reset_counter(self, \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K ,response)\n'}
+[1.998319] (mp_cpp_pkg) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.998372] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:25:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.998425] (mp_cpp_pkg) StderrLine: {'line': b'   25 |     void callback_reset_counter(self, request ,\x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K)\n'}
+[1.998476] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.005202] (-) TimerEvent: {}
+[2.050636] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KnumberCounterNode::numberCounterNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.050792] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:15:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.050854] (mp_cpp_pkg) StderrLine: {'line': b'   15 |                     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::bind(&numberCounterNode::callback_reset_counter));\n'}
+[2.050925] (mp_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.050980] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:14:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.051034] (mp_cpp_pkg) StderrLine: {'line': b'   14 |         service_ = this->create_service<example_interfaces::srv::SetBool>\x1b[01;36m\x1b[K(\x1b[m\x1b[K"reset_counter"\n'}
+[2.051092] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.051266] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:14:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KnumberCounterNode::create_service<example_interfaces::srv::SetBool>(const char [14])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.051346] (mp_cpp_pkg) StderrLine: {'line': b'   14 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<example_interfaces::srv::SetBool>("reset_counter"\x1b[m\x1b[K\n'}
+[2.051404] (mp_cpp_pkg) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.051469] (mp_cpp_pkg) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[K                    std\x1b[m\x1b[K::bind(&numberCounterNode::callback_reset_counter));\n'}
+[2.051524] (mp_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~\x1b[m\x1b[K                                                   \n'}
+[2.051692] (mp_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.051753] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.051808] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.051860] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:1\x1b[m\x1b[K:\n'}
+[2.051912] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.051968] (mp_cpp_pkg) StderrLine: {'line': b'  267 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.052019] (mp_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.052080] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.052140] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:14:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[2.052191] (mp_cpp_pkg) StderrLine: {'line': b'   14 |         service_ = \x1b[01;36m\x1b[Kthis->create_service<example_interfaces::srv::SetBool>("reset_counter"\x1b[m\x1b[K\n'}
+[2.052245] (mp_cpp_pkg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.052302] (mp_cpp_pkg) StderrLine: {'line': b'   15 | \x1b[01;36m\x1b[K                    std\x1b[m\x1b[K::bind(&numberCounterNode::callback_reset_counter));\n'}
+[2.052353] (mp_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~\x1b[m\x1b[K                                                   \n'}
+[2.054177] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.054306] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:20:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.054399] (mp_cpp_pkg) StderrLine: {'line': b'   20 |     void numberCallNumberPublisher(\x1b[01;35m\x1b[Kconst example_interfaces::msg::Int64::SharedPtr msg\x1b[m\x1b[K)\n'}
+[2.054486] (mp_cpp_pkg) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.054569] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid numberCounterNode::callback_reset_counter(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.054653] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:27:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054735] (mp_cpp_pkg) StderrLine: {'line': b'   27 |         if \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K.data:\n'}
+[2.054816] (mp_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.105293] (-) TimerEvent: {}
+[2.205596] (-) TimerEvent: {}
+[2.305897] (-) TimerEvent: {}
+[2.406206] (-) TimerEvent: {}
+[2.506505] (-) TimerEvent: {}
+[2.606806] (-) TimerEvent: {}
+[2.707111] (-) TimerEvent: {}
+[2.807418] (-) TimerEvent: {}
+[2.907719] (-) TimerEvent: {}
+[3.008017] (-) TimerEvent: {}
+[3.108319] (-) TimerEvent: {}
+[3.208641] (-) TimerEvent: {}
+[3.308955] (-) TimerEvent: {}
+[3.409269] (-) TimerEvent: {}
+[3.509532] (-) TimerEvent: {}
+[3.609834] (-) TimerEvent: {}
+[3.710118] (-) TimerEvent: {}
+[3.810430] (-) TimerEvent: {}
+[3.910703] (-) TimerEvent: {}
+[3.979709] (mp_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1\n'}
+[3.980100] (mp_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2\n'}
+[3.980344] (mp_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.982258] (mp_cpp_pkg) CommandEnded: {'returncode': 2}
+[4.010817] (-) TimerEvent: {}
+[4.039327] (mp_cpp_pkg) JobEnded: {'identifier': 'mp_cpp_pkg', 'rc': 2}
+[4.050004] (-) EventReactorShutdown: {}

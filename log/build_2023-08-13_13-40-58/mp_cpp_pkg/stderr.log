@@ -1,0 +1,14 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KnumberCounterNode::numberCounterNode()[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:10:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+   10 |         this->[01;31m[Kcounter_[m[K= 0;
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:24:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+   24 |         this->[01;31m[Kcounter_[m[K += msg->data;
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:26:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+   26 |         new_msg->data = this->[01;31m[Kcounter_[m[K;
+      |                               [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

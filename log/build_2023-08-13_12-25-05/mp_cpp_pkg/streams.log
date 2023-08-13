@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.069s] [ 31%] Built target cpp_node
+[0.069s] [ 31%] Built target smartphone
+[0.069s] [ 43%] Built target number_publisher
+[0.069s] [ 56%] Built target add_two_ints_server
+[0.070s] [ 68%] Built target add_two_ints_client_no_oop
+[0.070s] [ 75%] Built target robot_news_station
+[0.075s] [ 87%] Built target add_two_ints_client
+[0.076s] [ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.997s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.997s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:21:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.997s]    21 |     void numberCallNumberPublisher([01;35m[Kconst example_interfaces::msg::Int64::SharedPtr msg[m[K)
+[1.998s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.237s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[7.588s] [100%] Built target number_counter
+[7.598s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[7.645s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/build/mp_cpp_pkg
+[7.652s] -- Install configuration: ""
+[7.652s] -- Execute custom install script
+[7.652s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/cpp_node
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/robot_news_station
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/smartphone
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/number_publisher
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/number_counter
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/add_two_ints_server
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/add_two_ints_client_no_oop
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/lib/mp_cpp_pkg/add_two_ints_client
+[7.653s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/mp_cpp_pkg
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/mp_cpp_pkg
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.sh
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/ament_prefix_path.dsv
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.sh
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/environment/path.dsv
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.bash
+[7.654s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.sh
+[7.655s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.zsh
+[7.655s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/local_setup.dsv
+[7.655s] -- Symlinking: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.dsv
+[7.663s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/ament_index/resource_index/packages/mp_cpp_pkg
+[7.663s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig.cmake
+[7.663s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/cmake/mp_cpp_pkgConfig-version.cmake
+[7.663s] -- Up-to-date symlink: /home/emirhan/ros2_ws/install/mp_cpp_pkg/share/mp_cpp_pkg/package.xml
+[7.666s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/emirhan/ros2_ws/build/mp_cpp_pkg

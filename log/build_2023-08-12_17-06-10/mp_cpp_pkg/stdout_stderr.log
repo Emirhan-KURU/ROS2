@@ -1,0 +1,93 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[ 18%] Built target robot_news_station
+[ 25%] Built target smartphone
+[ 37%] Built target number_publisher
+[ 50%] Built target add_two_ints_server
+[ 62%] Built target cpp_node
+[ 75%] Built target number_counter
+[ 87%] Built target add_two_ints_client_no_oop
+[ 93%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:28:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   28 |             RCLCPP_INFO(this->get_logger(),[01;35m[K" %d + %d = %d "[m[K,a,b,[32m[Kresponse->sum[m[K);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~[m[K     [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                           [32m[K|[m[K
+      |                                                                           [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:28:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   28 |             RCLCPP_INFO(this->get_logger()," %d + %d = [01;36m[K%d[m[K ",a,b,response->sum);
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   32 |             RCLCPP_ERROR(this->get_logger(). [01;31m[K"Service call failed"[m[K);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   32 |             RCLCPP_ERROR(this->get_logger(). [01;31m[K"Service call failed"[m[K);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   32 |             [01;36m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   32 |             [01;36m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   32 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(). "Service call failed");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/add_two_ints_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

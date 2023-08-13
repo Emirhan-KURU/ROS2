@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 12%] Built target smartphone
+[ 31%] Built target cpp_node
+[ 43%] Built target add_two_ints_server
+[ 50%] Built target add_two_ints_client_no_oop
+[ 62%] Built target number_publisher
+[ 75%] Built target robot_news_station
+[ 87%] Built target add_two_ints_client
+[ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:21:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     void numberCallNumberPublisher([01;35m[Kconst example_interfaces::msg::Int64::SharedPtr msg[m[K)
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::resetCounterService(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::SetBool_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::SetBool_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcounter_[m[K’
+   30 |             request->[01;31m[Kcounter_[m[K =  0;
+      |                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

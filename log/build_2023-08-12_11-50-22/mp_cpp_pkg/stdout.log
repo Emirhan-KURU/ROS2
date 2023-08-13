@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[ 16%] Built target robot_news_station
+[ 33%] Built target cpp_node
+[ 50%] Built target number_publisher
+[ 83%] Built target number_counter
+[ 83%] Built target smartphone
+[ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m

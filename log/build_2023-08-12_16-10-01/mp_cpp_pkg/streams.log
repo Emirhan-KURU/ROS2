@@ -1,0 +1,162 @@
+[0.016s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.082s] [ 14%] Built target robot_news_station
+[0.084s] [ 28%] Built target cpp_node
+[0.085s] [ 57%] Built target smartphone
+[0.085s] [ 57%] Built target number_counter
+[0.085s] [ 71%] Built target add_two_ints_server
+[0.086s] [ 85%] Built target number_publisher
+[0.090s] [ 92%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[2.013s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.014s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.014s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.014s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[2.014s]    13 |         RCLCPP_WARN(node->get_logger(). [01;31m[K"waiting for the server to be up..."[m[K);
+[2.014s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.015s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.015s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.015s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.015s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.015s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.015s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.015s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.015s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.015s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.015s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.015s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.015s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.015s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.015s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.016s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.016s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.016s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.016s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.016s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[2.016s]    13 |         RCLCPP_WARN(node->get_logger(). [01;31m[K"waiting for the server to be up..."[m[K);
+[2.017s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+[2.017s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.017s]    13 |         [01;36m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.017s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[2.017s]    13 |         [01;31m[KRCLCPP_WARN[m[K(node->get_logger(). "waiting for the server to be up...");
+[2.017s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:13:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[2.018s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.019s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.019s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.020s]    23 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.020s]       |                     [01;31m[K^~~~[m[K
+[2.020s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.020s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.020s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.020s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.020s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.020s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.020s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.020s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.020s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.020s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.020s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.020s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.021s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.021s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.021s]    23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.021s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.021s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.022s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.022s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.022s]    23 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.022s]       |                     [01;31m[K^~~~[m[K
+[2.022s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:23:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.022s]    23 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"%d + %d = %d ",(int)request->a,(int)request->b,(int)future.get()->sum);
+[2.022s]       |                     [01;31m[K^~~~[m[K
+[2.022s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.023s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.023s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.023s]    26 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+[2.023s]       |                      [01;31m[K^~~~[m[K
+[2.023s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.023s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.023s]    26 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+[2.023s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.023s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.023s]    26 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+[2.023s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.023s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.023s]    26 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+[2.024s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.024s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.024s]    26 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+[2.024s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.024s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.024s]    26 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+[2.024s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.024s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.025s]                  from [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:1[m[K:
+[2.025s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.025s]    26 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+[2.025s]       |                      [01;31m[K^~~~[m[K
+[2.025s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client_no_oop.cpp:26:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.025s]    26 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+[2.025s]       |                      [01;31m[K^~~~[m[K
+[2.516s] gmake[2]: *** [CMakeFiles/add_two_ints_client_no_oop.dir/build.make:76: CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o] Error 1
+[2.516s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/add_two_ints_client_no_oop.dir/all] Error 2
+[2.516s] gmake: *** [Makefile:146: all] Error 2
+[2.519s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8

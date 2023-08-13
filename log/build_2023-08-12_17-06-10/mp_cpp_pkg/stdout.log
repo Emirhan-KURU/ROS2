@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[ 18%] Built target robot_news_station
+[ 25%] Built target smartphone
+[ 37%] Built target number_publisher
+[ 50%] Built target add_two_ints_server
+[ 62%] Built target cpp_node
+[ 75%] Built target number_counter
+[ 87%] Built target add_two_ints_client_no_oop
+[ 93%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m

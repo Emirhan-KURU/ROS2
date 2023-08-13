@@ -1,0 +1,8 @@
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:21:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     void numberCallNumberPublisher([01;35m[Kconst example_interfaces::msg::Int64::SharedPtr msg[m[K)
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::resetCounterService(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:29:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcounter_[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   29 |         int [01;35m[Kcounter_[m[K;
+      |             [01;35m[K^~~~~~~~[m[K

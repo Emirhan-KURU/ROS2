@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[ 31%] Built target add_two_ints_server
+[ 31%] Built target robot_news_station
+[ 43%] Built target cpp_node
+[ 68%] Built target add_two_ints_client_no_oop
+[ 68%] Built target smartphone
+[ 81%] Built target add_two_ints_client
+[ 87%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable number_publisher[0m
+[ 93%] Built target number_publisher

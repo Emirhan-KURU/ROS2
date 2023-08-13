@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.076s] [ 37%] Built target smartphone
+[0.076s] [ 37%] Built target number_publisher
+[0.077s] [ 50%] Built target add_two_ints_server
+[0.078s] [ 37%] Built target robot_news_station
+[0.078s] [ 62%] Built target cpp_node
+[0.082s] [ 87%] Built target add_two_ints_client_no_oop
+[0.082s] [ 87%] Built target add_two_ints_client
+[0.085s] [ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.993s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KnumberCounterNode::numberCounterNode()[m[K’:
+[1.993s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:10:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+[1.993s]    10 |         this->[01;31m[Kcounter_[m[K= 0;
+[1.993s]       |               [01;31m[K^~~~~~~~[m[K
+[2.006s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.006s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:24:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+[2.006s]    24 |         this->[01;31m[Kcounter_[m[K += msg->data;
+[2.006s]       |               [01;31m[K^~~~~~~~[m[K
+[2.011s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:26:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass numberCounterNode[m[K’ has no member named ‘[01m[Kcounter_[m[K’
+[2.011s]    26 |         new_msg->data = this->[01;31m[Kcounter_[m[K;
+[2.011s]       |                               [01;31m[K^~~~~~~~[m[K
+[4.109s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[4.109s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+[4.109s] gmake: *** [Makefile:146: all] Error 2
+[4.111s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8

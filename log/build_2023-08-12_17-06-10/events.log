@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000360] (mp_cpp_pkg) JobQueued: {'identifier': 'mp_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000402] (mp_cpp_pkg) JobStarted: {'identifier': 'mp_cpp_pkg'}
+[0.009880] (mp_cpp_pkg) JobProgress: {'identifier': 'mp_cpp_pkg', 'progress': 'cmake'}
+[0.010631] (mp_cpp_pkg) JobProgress: {'identifier': 'mp_cpp_pkg', 'progress': 'build'}
+[0.011220] (mp_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emirhan/ros2_ws/build/mp_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/emirhan/ros2_ws/build/mp_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emirhan'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emirhan'), ('OLDPWD', '/home/emirhan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1162'), ('SYSTEMD_EXEC_PID', '1319'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3850'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emirhan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emirhan'), ('JOURNAL_STREAM', '8:23376'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emirhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Emirhan:@/tmp/.ICE-unix/1293,unix/Emirhan:/tmp/.ICE-unix/1293'), ('INVOCATION_ID', '10b6bbc7b04f42e9bd2fc01ea5c42723'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PYKB91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emirhan/ros2_ws/install/my_py_pkg:/home/emirhan/ros2_ws/install/mp_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5a6c5752-3af3-4180-a619-56301e2d6e31'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emirhan/ros2_ws/build/mp_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emirhan/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emirhan/ros2_ws/install/mp_cpp_pkg:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.060300] (mp_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[0.084748] (mp_cpp_pkg) StdoutLine: {'line': b'[ 18%] Built target robot_news_station\n'}
+[0.085059] (mp_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target smartphone\n'}
+[0.085491] (mp_cpp_pkg) StdoutLine: {'line': b'[ 37%] Built target number_publisher\n'}
+[0.087196] (mp_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_server\n'}
+[0.087686] (mp_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target cpp_node\n'}
+[0.088975] (mp_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target number_counter\n'}
+[0.091534] (mp_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target add_two_ints_client_no_oop\n'}
+[0.091850] (mp_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.099343] (-) TimerEvent: {}
+[0.199620] (-) TimerEvent: {}
+[0.299983] (-) TimerEvent: {}
+[0.400290] (-) TimerEvent: {}
+[0.500625] (-) TimerEvent: {}
+[0.600969] (-) TimerEvent: {}
+[0.701322] (-) TimerEvent: {}
+[0.801650] (-) TimerEvent: {}
+[0.901998] (-) TimerEvent: {}
+[1.002348] (-) TimerEvent: {}
+[1.102665] (-) TimerEvent: {}
+[1.203056] (-) TimerEvent: {}
+[1.303380] (-) TimerEvent: {}
+[1.403703] (-) TimerEvent: {}
+[1.504059] (-) TimerEvent: {}
+[1.604383] (-) TimerEvent: {}
+[1.704700] (-) TimerEvent: {}
+[1.805067] (-) TimerEvent: {}
+[1.905433] (-) TimerEvent: {}
+[2.005772] (-) TimerEvent: {}
+[2.029061] (mp_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.029418] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.029778] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.029884] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.029988] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.030147] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.030331] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.030477] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.030626] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.030764] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.030906] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.031031] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.031130] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.031295] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:28:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.031427] (mp_cpp_pkg) StderrLine: {'line': b'   28 |             RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K" %d + %d = %d "\x1b[m\x1b[K,a,b,\x1b[32m\x1b[Kresponse->sum\x1b[m\x1b[K);\n'}
+[2.031538] (mp_cpp_pkg) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.031627] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.031750] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}\x1b[m\x1b[K\n'}
+[2.031870] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:28:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.031990] (mp_cpp_pkg) StderrLine: {'line': b'   28 |             RCLCPP_INFO(this->get_logger()," %d + %d = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K ",a,b,response->sum);\n'}
+[2.032107] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.032227] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.032346] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.032466] (mp_cpp_pkg) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.032571] (mp_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.032672] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.032781] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.032972] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.033100] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.033240] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.033365] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.033491] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.033630] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.033754] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.033876] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.033995] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[2.034143] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             RCLCPP_ERROR(this->get_logger(). \x1b[01;31m\x1b[K"Service call failed"\x1b[m\x1b[K);\n'}
+[2.034270] (mp_cpp_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.034397] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.034522] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.034652] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.034778] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.034909] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.035032] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.035160] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.035286] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.035413] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.035538] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.035671] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.035802] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.035927] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.036056] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.036171] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.036281] (mp_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.036391] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.036504] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.036622] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.036740] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.036862] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.036987] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.037088] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.037183] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.037272] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.037365] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.037459] (mp_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.037561] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[2.037660] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             RCLCPP_ERROR(this->get_logger(). \x1b[01;31m\x1b[K"Service call failed"\x1b[m\x1b[K);\n'}
+[2.037758] (mp_cpp_pkg) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.037857] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[2.037959] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.038127] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.038244] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.038344] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.038447] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.038554] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.038658] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.038757] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;36m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.038854] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.038952] (mp_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/add_two_ints_client.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.039053] (mp_cpp_pkg) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(this->get_logger(). "Service call failed");\n'}
+[2.039149] (mp_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.105870] (-) TimerEvent: {}
+[2.206225] (-) TimerEvent: {}
+[2.306546] (-) TimerEvent: {}
+[2.406861] (-) TimerEvent: {}
+[2.507209] (-) TimerEvent: {}
+[2.552571] (mp_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[2.552924] (mp_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/add_two_ints_client.dir/all] Error 2\n'}
+[2.553280] (mp_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.555382] (mp_cpp_pkg) CommandEnded: {'returncode': 2}
+[2.607661] (-) TimerEvent: {}
+[2.613470] (mp_cpp_pkg) JobEnded: {'identifier': 'mp_cpp_pkg', 'rc': 2}
+[2.623918] (-) EventReactorShutdown: {}

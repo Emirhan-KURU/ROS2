@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.069s] [ 31%] Built target cpp_node
+[0.070s] [ 31%] Built target smartphone
+[0.070s] [ 43%] Built target add_two_ints_server
+[0.070s] [ 50%] Built target robot_news_station
+[0.070s] [ 62%] Built target number_publisher
+[0.071s] [ 75%] Built target add_two_ints_client_no_oop
+[0.074s] [ 87%] Built target add_two_ints_client
+[0.078s] [ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.012s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.013s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:21:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.013s]    21 |     void numberCallNumberPublisher([01;35m[Kconst example_interfaces::msg::Int64::SharedPtr msg[m[K)
+[2.013s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.019s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::resetCounterService(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[2.019s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktihs[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+[2.019s]    30 |             [01;31m[Ktihs[m[K->counter_= 0;
+[2.019s]       |             [01;31m[K^~~~[m[K
+[2.019s]       |             [32m[Kthis[m[K
+[4.142s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[4.142s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+[4.143s] gmake: *** [Makefile:146: all] Error 2
+[4.145s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8

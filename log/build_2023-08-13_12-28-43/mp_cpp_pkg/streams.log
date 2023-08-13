@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.069s] [ 37%] Built target smartphone
+[0.069s] [ 37%] Built target robot_news_station
+[0.069s] [ 37%] Built target cpp_node
+[0.069s] [ 50%] Built target add_two_ints_server
+[0.070s] [ 62%] Built target add_two_ints_client
+[0.071s] [ 75%] Built target add_two_ints_client_no_oop
+[0.074s] [ 87%] Built target number_publisher
+[0.080s] [ 93%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[2.021s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::numberCallNumberPublisher(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.021s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:21:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.021s]    21 |     void numberCallNumberPublisher([01;35m[Kconst example_interfaces::msg::Int64::SharedPtr msg[m[K)
+[2.022s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.024s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid numberCounterNode::resetCounterService(std::shared_ptr<example_interfaces::srv::SetBool_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::SetBool_Response_<std::allocator<void> > >)[m[K’:
+[2.024s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:31:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.024s]    31 |             response[01;31m[K->[m[Ksuccess = true;
+[2.024s]       |                     [01;31m[K^~[m[K
+[2.024s] [01m[K/home/emirhan/ros2_ws/src/mp_cpp_pkg/src/number_counter.cpp:32:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[2.024s]    32 |             response[01;31m[K->[m[Kmessage = "Counter has been reset";
+[2.025s]       |                     [01;31m[K^~[m[K
+[4.086s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[4.086s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+[4.087s] gmake: *** [Makefile:146: all] Error 2
+[4.089s] Invoked command in '/home/emirhan/ros2_ws/build/mp_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emirhan/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emirhan/ros2_ws/build/mp_cpp_pkg -- -j8 -l8
